@@ -7,11 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch data/cities.json --port 5000"
   },
   "dependencies": {
+    "country-code-to-flag-emoji": "^2.0.0",
+    "json-server": "^1.0.0-beta.3",
+    "leaflet": "^1.9.4",
     "react": "^19.0.0",
+    "react-datepicker": "^8.3.0",
     "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
     "react-router": "^7.5.0"
   },
   "devDependencies": {
